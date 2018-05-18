@@ -19,3 +19,11 @@ owners.
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql>
+
+4. Created cloudera-manager.repo file under /etc/Yum.repos.d
+
+[cloudera-manager]
+name=cloudera manager
+baseurl=http://ip-172-31-27-173.ap-southeast-1.compute.internal/cm/5.11.2/
+gpgcheck=0
+
